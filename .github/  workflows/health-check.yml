@@ -1,0 +1,49 @@
+name: Health Check
+
+on:
+  schedule:
+    # हर रोज़ रात 2:30 बजे (UTC) = सुबह 8:00 बजे IST
+    - cron: "0 21 * * *"
+  workflow_dispatch: {}   # मैन्युअल ट्रिगर के लिए भी उपलब्ध
+
+permissions:
+  contents: write
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run health checks
+        env:
+          # ये तीनों वैकल्पिक हैं — Repo Settings > Secrets and variables > Actions में
+          # जोड़ें तो down/recovered अलर्ट्स Discord/Telegram पर जाएंगे। सेट न हों तो
+          # स्क्रिप्ट बिना किसी एरर के अलर्ट्स स्किप कर देगी।
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/check_health.py
+
+      - name: Rebuild README
+        run: python scripts/build_readme.py
+
+      - name: Rebuild site + badges
+        run: python scripts/build_site.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "api-directory-bot"
+          git config user.email "actions@github.com"
+          git add data/status.json README.md docs/
+          git diff --cached --quiet || git commit -m "chore: daily health-check update [automated]"
+          git push
