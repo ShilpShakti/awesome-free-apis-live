@@ -11,7 +11,7 @@
 
 🔴 **लाइव, सर्च करने लायक डैशबोर्ड:** `https://OWNER.github.io/REPO/` (GitHub Pages में `docs/` फोल्डर से enable करें)
 
-> 🕒 **आखिरी अपडेट:** 2026-08-27T19:16:51.095029+00:00
+> 🕒 **आखिरी अपडेट:** 2026-08-27T20:30:40.849786+00:00
 
 ## नई API कैसे जोड़ें?
 
@@ -33,14 +33,14 @@
 
 | API नाम | विवरण | ऑथेंटिकेशन | HTTPS | CORS | स्थिति |
 |---|---|---|---|---|---|
-| [Groq Cloud API](https://groq.com) | Llama3/Mistral पर सुपरफास्ट AI टेक्स्ट जेनरेशन — 100% फ्री टियर। | API Key (Free Tier) | ✅ | ✅ | ⚪ Not checked yet |
-| [Hugging Face Serverless Inference](https://huggingface.co/docs/api-inference) | हज़ारों ओपन-सोर्स मॉडल्स (टेक्स्ट, ऑडियो, इमेज) को मुफ्त में रन करें। | API Key (Free) | ✅ | ✅ | ⚪ Not checked yet |
+| [Groq Cloud API](https://groq.com) | Llama3/Mistral पर सुपरफास्ट AI टेक्स्ट जेनरेशन — 100% फ्री टियर। | API Key (Free Tier) | ✅ | ✅ | 🟡 100.0% Key Reqd |
+| [Hugging Face Serverless Inference](https://huggingface.co/docs/api-inference) | हज़ारों ओपन-सोर्स मॉडल्स (टेक्स्ट, ऑडियो, इमेज) को मुफ्त में रन करें। | API Key (Free) | ✅ | ✅ | 🔴 0.0% Down |
 | [Ollama Local REST API](http://localhost:11434/api) ⓘ | अपने कंप्यूटर/सर्वर पर बिना इंटरनेट LLM रन करने का स्टैंडर्ड फॉर्मेट। | None (Localhost / Self-hosted) | ❌ | ❌ | ℹ️ Self-hosted (not checked) |
-| [LibreTranslate](https://libretranslate.com) | भाषाओं का मुफ्त, ओपन-सोर्स अनुवाद API। | None / Self-hosted | ✅ | ✅ | ⚪ Not checked yet |
-| [OpenRouter API](https://openrouter.ai) | एक ही API से 100+ LLM मॉडल्स (कई फ्री मॉडल्स सहित) तक पहुंच। | None (models list) / API Key (completions के लिए) | ✅ | ✅ | ⚪ Not checked yet |
-| [Cohere API](https://cohere.com) | टेक्स्ट जेनरेशन, एम्बेडिंग्स और क्लासिफिकेशन के लिए फ्री ट्रायल टियर। | API Key (Free trial) | ✅ | ✅ | ⚪ Not checked yet |
-| [Wit.ai (Meta NLU)](https://wit.ai) | Meta का फ्री नेचुरल लैंग्वेज अंडरस्टैंडिंग (intent/entity extraction) API। | API Key (Free — Facebook account से) | ✅ | ✅ | ⚪ Not checked yet |
-| [Together AI](https://www.together.ai) | ओपन-सोर्स LLMs (Llama, Mixtral आदि) के लिए फ्री-क्रेडिट इन्फरेंस API। | API Key (Free credits on signup) | ✅ | ✅ | ⚪ Not checked yet |
+| [LibreTranslate](https://libretranslate.com) | भाषाओं का मुफ्त, ओपन-सोर्स अनुवाद API। | None / Self-hosted | ✅ | ✅ | 🔴 0.0% Down |
+| [OpenRouter API](https://openrouter.ai) | एक ही API से 100+ LLM मॉडल्स (कई फ्री मॉडल्स सहित) तक पहुंच। | None (models list) / API Key (completions के लिए) | ✅ | ✅ | 🟢 100.0% Up |
+| [Cohere API](https://cohere.com) | टेक्स्ट जेनरेशन, एम्बेडिंग्स और क्लासिफिकेशन के लिए फ्री ट्रायल टियर। | API Key (Free trial) | ✅ | ✅ | 🟡 100.0% Key Reqd |
+| [Wit.ai (Meta NLU)](https://wit.ai) | Meta का फ्री नेचुरल लैंग्वेज अंडरस्टैंडिंग (intent/entity extraction) API। | API Key (Free — Facebook account से) | ✅ | ✅ | 🔴 0.0% Down |
+| [Together AI](https://www.together.ai) | ओपन-सोर्स LLMs (Llama, Mixtral आदि) के लिए फ्री-क्रेडिट इन्फरेंस API। | API Key (Free credits on signup) | ✅ | ✅ | 🟡 100.0% Key Reqd |
 
 
 <details><summary>ⓘ नोट्स देखें</summary>
@@ -53,40 +53,40 @@
 
 | API नाम | विवरण | ऑथेंटिकेशन | HTTPS | CORS | स्थिति |
 |---|---|---|---|---|---|
-| [JSONPlaceholder](https://jsonplaceholder.typicode.com) | टेस्टिंग और UI बनाने के लिए डमी पोस्ट, यूज़र्स और कमेंट्स। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [DummyJSON](https://dummyjson.com) | ई-कॉमर्स प्रोडक्ट्स, कार्ट और यूज़र डेटा का डमी मॉक। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [IPify](https://www.ipify.org) | यूज़र का पब्लिक IP एड्रेस पता करना। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [Open-Meteo Weather API](https://open-meteo.com) | बिना किसी API Key के सटीक मौसम और तापमान डेटा। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [Shields.io Badges](https://shields.io) | डायनामिक बैज और स्टेटस इमेज जनरेट करना (README badges आदि के लिए)। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [REST Countries](https://restcountries.com) | दुनिया के देशों की मुद्रा, राजधानी, झंडा और जनसंख्या डेटा। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [CoinGecko Simple Price API](https://www.coingecko.com/api) | लाइव क्रिप्टोकरेंसी और फॉरेक्स रेट्स (INR सहित)। | None (Free Demo Tier) | ✅ | ✅ | ⚪ Not checked yet |
-| [ExchangeRate-API](https://open.er-api.com/v6/latest/USD) | अंतरराष्ट्रीय मुद्राओं की लाइव एक्सचेंज दरें। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [QR Code Generator (goqr.me)](https://api.qrserver.com) | किसी भी टेक्स्ट/लिंक से तुरंत QR कोड इमेज बनाना। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [Agify.io](https://agify.io) | नाम के आधार पर उम्र का अनुमान लगाने वाला डेटा। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [Universities List API](http://universities.hipolabs.com) | भारत और दुनिया भर के विश्वविद्यालयों की लिस्ट और डोमेन। | None | ❌ | ✅ | ⚪ Not checked yet |
-| [Numbers API](http://numbersapi.com) | किसी भी नंबर के बारे में रोचक तथ्य, तारीख और गणित ट्रिविया। | None | ❌ | ✅ | ⚪ Not checked yet |
-| [Cat Facts API](https://catfact.ninja) | बिल्लियों के बारे में रैंडम मज़ेदार तथ्य। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [Dog CEO API](https://dog.ceo/dog-api) | नस्ल के हिसाब से कुत्तों की रैंडम तस्वीरें (image URLs)। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [Advice Slip API](https://api.adviceslip.com) | रैंडम एक-लाइन सलाह/सुझाव जनरेट करना। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [JokeAPI](https://v2.jokeapi.dev) | प्रोग्रामिंग, डार्क और मिस्क जोक्स — कैटेगरी व फिल्टर के साथ। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [Open Trivia Database](https://opentdb.com) | क्विज़ ऐप्स के लिए हज़ारों वेरिफाइड ट्रिविया सवाल। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [Public Holiday API (Nager.Date)](https://date.nager.at) | किसी भी देश (भारत सहित) की सार्वजनिक छुट्टियों की लिस्ट। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [IPAPI - IP Geolocation](https://ipapi.co) | IP एड्रेस से जिओ-लोकेशन (शहर, देश, टाइमज़ोन) जानकारी निकालें। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [Random User Generator](https://randomuser.me) | टेस्टिंग के लिए फेक यूज़र प्रोफाइल्स (नाम, फोटो, पता) जनरेट करना। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [PokeAPI](https://pokeapi.co) | पोकेमॉन डेटा (स्टैट्स, मूव्स, टाइप्स) — API टेस्टिंग के लिए लोकप्रिय। | None | ✅ | ✅ | ⚪ Not checked yet |
+| [JSONPlaceholder](https://jsonplaceholder.typicode.com) | टेस्टिंग और UI बनाने के लिए डमी पोस्ट, यूज़र्स और कमेंट्स। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [DummyJSON](https://dummyjson.com) | ई-कॉमर्स प्रोडक्ट्स, कार्ट और यूज़र डेटा का डमी मॉक। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [IPify](https://www.ipify.org) | यूज़र का पब्लिक IP एड्रेस पता करना। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [Open-Meteo Weather API](https://open-meteo.com) | बिना किसी API Key के सटीक मौसम और तापमान डेटा। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [Shields.io Badges](https://shields.io) | डायनामिक बैज और स्टेटस इमेज जनरेट करना (README badges आदि के लिए)। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [REST Countries](https://restcountries.com) | दुनिया के देशों की मुद्रा, राजधानी, झंडा और जनसंख्या डेटा। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [CoinGecko Simple Price API](https://www.coingecko.com/api) | लाइव क्रिप्टोकरेंसी और फॉरेक्स रेट्स (INR सहित)। | None (Free Demo Tier) | ✅ | ✅ | 🟢 100.0% Up |
+| [ExchangeRate-API](https://open.er-api.com/v6/latest/USD) | अंतरराष्ट्रीय मुद्राओं की लाइव एक्सचेंज दरें। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [QR Code Generator (goqr.me)](https://api.qrserver.com) | किसी भी टेक्स्ट/लिंक से तुरंत QR कोड इमेज बनाना। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [Agify.io](https://agify.io) | नाम के आधार पर उम्र का अनुमान लगाने वाला डेटा। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [Universities List API](http://universities.hipolabs.com) | भारत और दुनिया भर के विश्वविद्यालयों की लिस्ट और डोमेन। | None | ❌ | ✅ | 🟢 100.0% Up |
+| [Numbers API](http://numbersapi.com) | किसी भी नंबर के बारे में रोचक तथ्य, तारीख और गणित ट्रिविया। | None | ❌ | ✅ | 🔴 0.0% Down |
+| [Cat Facts API](https://catfact.ninja) | बिल्लियों के बारे में रैंडम मज़ेदार तथ्य। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [Dog CEO API](https://dog.ceo/dog-api) | नस्ल के हिसाब से कुत्तों की रैंडम तस्वीरें (image URLs)। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [Advice Slip API](https://api.adviceslip.com) | रैंडम एक-लाइन सलाह/सुझाव जनरेट करना। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [JokeAPI](https://v2.jokeapi.dev) | प्रोग्रामिंग, डार्क और मिस्क जोक्स — कैटेगरी व फिल्टर के साथ। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [Open Trivia Database](https://opentdb.com) | क्विज़ ऐप्स के लिए हज़ारों वेरिफाइड ट्रिविया सवाल। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [Public Holiday API (Nager.Date)](https://date.nager.at) | किसी भी देश (भारत सहित) की सार्वजनिक छुट्टियों की लिस्ट। | None | ✅ | ✅ | 🔴 0.0% Down |
+| [IPAPI - IP Geolocation](https://ipapi.co) | IP एड्रेस से जिओ-लोकेशन (शहर, देश, टाइमज़ोन) जानकारी निकालें। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [Random User Generator](https://randomuser.me) | टेस्टिंग के लिए फेक यूज़र प्रोफाइल्स (नाम, फोटो, पता) जनरेट करना। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [PokeAPI](https://pokeapi.co) | पोकेमॉन डेटा (स्टैट्स, मूव्स, टाइप्स) — API टेस्टिंग के लिए लोकप्रिय। | None | ✅ | ✅ | 🟢 100.0% Up |
 
 ### India Public Data
 
 | API नाम | विवरण | ऑथेंटिकेशन | HTTPS | CORS | स्थिति |
 |---|---|---|---|---|---|
-| [India Post Pincode API](https://api.postalpincode.in) | भारत के किसी भी पिनकोड या डाकघर का विवरण खोजें। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [Indian Railway Train Route / Live Status](https://erail.in) ⓘ | ट्रेन शेड्यूल और स्टेशन कोड की जानकारी (unofficial open mirror)। | None / API Key (mirror dependent) | ✅ | ❌ | ⚪ Not checked yet |
-| [data.gov.in Mandi Prices API](https://api.data.gov.in) | देशभर की मंडियों में फसलों का दैनिक भाव (Open Government Data)। | API Key (Free Gov Sign-up) | ✅ | ✅ | ⚪ Not checked yet |
-| [eCourts Public Case Status](https://ecourts.gov.in) ⓘ | ज़िला और उच्च न्यायालयों के केस स्टेटस व कॉज़ लिस्ट का ओपन डेटा। | None / Scraping Endpoints | ✅ | ❌ | ⚪ Not checked yet |
-| [ISRO Spacecraft / Launchers API](https://isro.vercel.app/api/spacecrafts) | इसरो के सभी सैटेलाइट और रॉकेट लॉन्च का पब्लिक डेटा। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [IFSC Code Lookup (Razorpay)](https://ifsc.razorpay.com) | बैंक की IFSC कोड डिटेल्स (ब्रांच, बैंक नाम, पता) निकालें। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [WAQI Air Quality Index API](https://aqicn.org/api) | भारत के शहरों सहित दुनिया भर का लाइव एयर क्वालिटी इंडेक्स (AQI)। | API Key (Free, instant) | ✅ | ✅ | ⚪ Not checked yet |
-| [India States & Districts JSON](https://github.com/sab99r/Indian-States-And-Districts) | भारत के सभी राज्यों और ज़िलों की स्टैटिक JSON लिस्ट (community-maintained)। | None | ✅ | ✅ | ⚪ Not checked yet |
+| [India Post Pincode API](https://api.postalpincode.in) | भारत के किसी भी पिनकोड या डाकघर का विवरण खोजें। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [Indian Railway Train Route / Live Status](https://erail.in) ⓘ | ट्रेन शेड्यूल और स्टेशन कोड की जानकारी (unofficial open mirror)। | None / API Key (mirror dependent) | ✅ | ❌ | 🟢 100.0% Up |
+| [data.gov.in Mandi Prices API](https://api.data.gov.in) | देशभर की मंडियों में फसलों का दैनिक भाव (Open Government Data)। | API Key (Free Gov Sign-up) | ✅ | ✅ | 🔴 0.0% Down |
+| [eCourts Public Case Status](https://ecourts.gov.in) ⓘ | ज़िला और उच्च न्यायालयों के केस स्टेटस व कॉज़ लिस्ट का ओपन डेटा। | None / Scraping Endpoints | ✅ | ❌ | 🟢 100.0% Up |
+| [ISRO Spacecraft / Launchers API](https://isro.vercel.app/api/spacecrafts) | इसरो के सभी सैटेलाइट और रॉकेट लॉन्च का पब्लिक डेटा। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [IFSC Code Lookup (Razorpay)](https://ifsc.razorpay.com) | बैंक की IFSC कोड डिटेल्स (ब्रांच, बैंक नाम, पता) निकालें। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [WAQI Air Quality Index API](https://aqicn.org/api) | भारत के शहरों सहित दुनिया भर का लाइव एयर क्वालिटी इंडेक्स (AQI)। | API Key (Free, instant) | ✅ | ✅ | 🟢 100.0% Up |
+| [India States & Districts JSON](https://github.com/sab99r/Indian-States-And-Districts) | भारत के सभी राज्यों और ज़िलों की स्टैटिक JSON लिस्ट (community-maintained)। | None | ✅ | ✅ | 🟢 100.0% Up |
 
 
 <details><summary>ⓘ नोट्स देखें</summary>
@@ -100,24 +100,24 @@
 
 | API नाम | विवरण | ऑथेंटिकेशन | HTTPS | CORS | स्थिति |
 |---|---|---|---|---|---|
-| [NewsAPI.org](https://newsapi.org) | दुनिया भर (भारत सहित) के 80,000+ न्यूज़ सोर्सेज़ से हेडलाइन्स। | API Key (Free tier — dev use) | ✅ | ✅ | ⚪ Not checked yet |
-| [TMDB (The Movie Database)](https://www.themoviedb.org/documentation/api) | फिल्मों, TV शोज़ और कलाकारों का विशाल, फ्री डेटाबेस। | API Key (Free) | ✅ | ✅ | ⚪ Not checked yet |
-| [NASA APOD (Astronomy Picture of the Day)](https://api.nasa.gov) | नासा की रोज़ाना खगोलीय तस्वीर, विवरण के साथ। | API Key (DEMO_KEY से बिना साइन-अप टेस्ट कर सकते हैं) | ✅ | ✅ | ⚪ Not checked yet |
-| [Chuck Norris Jokes API](https://api.chucknorris.io) | रैंडम Chuck Norris जोक्स — कैटेगरी फिल्टर के साथ। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [TVMaze API](https://www.tvmaze.com/api) | TV शोज़, एपिसोड्स, कास्ट और शेड्यूल का ओपन डेटा। | None | ✅ | ✅ | ⚪ Not checked yet |
+| [NewsAPI.org](https://newsapi.org) | दुनिया भर (भारत सहित) के 80,000+ न्यूज़ सोर्सेज़ से हेडलाइन्स। | API Key (Free tier — dev use) | ✅ | ✅ | 🟡 100.0% Key Reqd |
+| [TMDB (The Movie Database)](https://www.themoviedb.org/documentation/api) | फिल्मों, TV शोज़ और कलाकारों का विशाल, फ्री डेटाबेस। | API Key (Free) | ✅ | ✅ | 🟡 100.0% Key Reqd |
+| [NASA APOD (Astronomy Picture of the Day)](https://api.nasa.gov) | नासा की रोज़ाना खगोलीय तस्वीर, विवरण के साथ। | API Key (DEMO_KEY से बिना साइन-अप टेस्ट कर सकते हैं) | ✅ | ✅ | 🟢 100.0% Up |
+| [Chuck Norris Jokes API](https://api.chucknorris.io) | रैंडम Chuck Norris जोक्स — कैटेगरी फिल्टर के साथ। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [TVMaze API](https://www.tvmaze.com/api) | TV शोज़, एपिसोड्स, कास्ट और शेड्यूल का ओपन डेटा। | None | ✅ | ✅ | 🟢 100.0% Up |
 
 ### Security, Network & Public Tools
 
 | API नाम | विवरण | ऑथेंटिकेशन | HTTPS | CORS | स्थिति |
 |---|---|---|---|---|---|
-| [Cloudflare 1.1.1.1 DNS over HTTPS](https://cloudflare-dns.com/dns-query) ⓘ | प्रोग्रामेटिक DNS रिकॉर्ड्स और डोमेन रिज़ॉल्यूशन। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [Have I Been Pwned (k-Anonymity Range Check)](https://haveibeenpwned.com/API/v3) | पासवर्ड लीक हुआ है या नहीं, सुरक्षित तरीके से (k-anonymity) जांचना। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [RoboHash](https://robohash.org) | किसी भी टेक्स्ट या आईडी से यूनीक रोबोट/मॉन्स्टर प्रोफाइल फोटो बनाना। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [Bored API](https://bored-api.appbrewery.com) | रैंडम टास्क्स और एक्टिविटीज़ का JSON डेटा (बोरियत दूर करने के लिए)। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [Open Library Books API](https://openlibrary.org/developers/api) | दुनिया भर की किताबों का ISBN, लेखक और पब्लिशर डेटा। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [SSL Labs API](https://www.ssllabs.com/projects/ssllabs-apis) | किसी भी डोमेन के SSL/TLS सर्टिफिकेट की डिटेल्ड सिक्योरिटी ग्रेडिंग। | None | ✅ | ✅ | ⚪ Not checked yet |
-| [AbuseIPDB](https://www.abuseipdb.com) | किसी IP एड्रेस की abuse/spam रिपोर्ट्स और रिस्क स्कोर चेक करना। | API Key (Free tier) | ✅ | ✅ | ⚪ Not checked yet |
-| [VirusTotal API](https://docs.virustotal.com/reference/overview) | फाइल/URL/IP को 70+ एंटीवायरस इंजनों से स्कैन कराना। | API Key (Free tier) | ✅ | ✅ | ⚪ Not checked yet |
+| [Cloudflare 1.1.1.1 DNS over HTTPS](https://cloudflare-dns.com/dns-query) ⓘ | प्रोग्रामेटिक DNS रिकॉर्ड्स और डोमेन रिज़ॉल्यूशन। | None | ✅ | ✅ | 🔴 0.0% Down |
+| [Have I Been Pwned (k-Anonymity Range Check)](https://haveibeenpwned.com/API/v3) | पासवर्ड लीक हुआ है या नहीं, सुरक्षित तरीके से (k-anonymity) जांचना। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [RoboHash](https://robohash.org) | किसी भी टेक्स्ट या आईडी से यूनीक रोबोट/मॉन्स्टर प्रोफाइल फोटो बनाना। | None | ✅ | ✅ | 🔴 0.0% Down |
+| [Bored API](https://bored-api.appbrewery.com) | रैंडम टास्क्स और एक्टिविटीज़ का JSON डेटा (बोरियत दूर करने के लिए)। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [Open Library Books API](https://openlibrary.org/developers/api) | दुनिया भर की किताबों का ISBN, लेखक और पब्लिशर डेटा। | None | ✅ | ✅ | 🔴 0.0% Down |
+| [SSL Labs API](https://www.ssllabs.com/projects/ssllabs-apis) | किसी भी डोमेन के SSL/TLS सर्टिफिकेट की डिटेल्ड सिक्योरिटी ग्रेडिंग। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [AbuseIPDB](https://www.abuseipdb.com) | किसी IP एड्रेस की abuse/spam रिपोर्ट्स और रिस्क स्कोर चेक करना। | API Key (Free tier) | ✅ | ✅ | 🟡 100.0% Key Reqd |
+| [VirusTotal API](https://docs.virustotal.com/reference/overview) | फाइल/URL/IP को 70+ एंटीवायरस इंजनों से स्कैन कराना। | API Key (Free tier) | ✅ | ✅ | 🟡 100.0% Key Reqd |
 
 
 <details><summary>ⓘ नोट्स देखें</summary>
