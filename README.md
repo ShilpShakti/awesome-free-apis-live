@@ -1,5 +1,18 @@
 # 🇮🇳 India-Focused Free API Directory
 
+<p align="center">
+  <img src="https://img.shields.io/badge/APIs-50+-blue?style=for-the-badge&logo=fastapi" alt="APIs Count" />
+  <img src="https://img.shields.io/badge/Health%20Check-Automated%20Daily-brightgreen?style=for-the-badge&logo=githubactions" alt="Daily Check" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-orange?style=for-the-badge" alt="Maintained" />
+</p>
+
+<p align="center">
+  ⭐ <b>If you find this list helpful, please star the repository!</b> ⭐
+</p>
+
+---
+
 ![Health Check](https://github.com/OWNER/REPO/actions/workflows/health-check.yml/badge.svg)
 ![PR Validator](https://github.com/OWNER/REPO/actions/workflows/pr-validator.yml/badge.svg)
 ![Total APIs](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/OWNER/REPO/main/docs/badges/total.json)
