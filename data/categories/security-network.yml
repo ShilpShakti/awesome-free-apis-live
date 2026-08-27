@@ -1,0 +1,80 @@
+- name: "Cloudflare 1.1.1.1 DNS over HTTPS"
+  description: "प्रोग्रामेटिक DNS रिकॉर्ड्स और डोमेन रिज़ॉल्यूशन।"
+  url: "https://cloudflare-dns.com/dns-query"
+  test_endpoint: "https://cloudflare-dns.com/dns-query?name=google.com&type=A"
+  category: "Security, Network & Public Tools"
+  auth: "None"
+  https: true
+  cors: true
+  rate_limit: "Open"
+  note: "रिक्वेस्ट में हेडर 'Accept: application/dns-json' ज़रूरी है।"
+
+- name: "Have I Been Pwned (k-Anonymity Range Check)"
+  description: "पासवर्ड लीक हुआ है या नहीं, सुरक्षित तरीके से (k-anonymity) जांचना।"
+  url: "https://haveibeenpwned.com/API/v3"
+  test_endpoint: "https://api.pwnedpasswords.com/range/21BD1"
+  category: "Security, Network & Public Tools"
+  auth: "None"
+  https: true
+  cors: true
+  rate_limit: "Open (fair use)"
+
+- name: "RoboHash"
+  description: "किसी भी टेक्स्ट या आईडी से यूनीक रोबोट/मॉन्स्टर प्रोफाइल फोटो बनाना।"
+  url: "https://robohash.org"
+  test_endpoint: "https://robohash.org/test.png"
+  category: "Security, Network & Public Tools"
+  auth: "None"
+  https: true
+  cors: true
+  rate_limit: "Open"
+
+- name: "Bored API"
+  description: "रैंडम टास्क्स और एक्टिविटीज़ का JSON डेटा (बोरियत दूर करने के लिए)।"
+  url: "https://bored-api.appbrewery.com"
+  test_endpoint: "https://bored-api.appbrewery.com/random"
+  category: "Security, Network & Public Tools"
+  auth: "None"
+  https: true
+  cors: true
+  rate_limit: "Open"
+
+- name: "Open Library Books API"
+  description: "दुनिया भर की किताबों का ISBN, लेखक और पब्लिशर डेटा।"
+  url: "https://openlibrary.org/developers/api"
+  test_endpoint: "https://openlibrary.org/isbn/9780140328702.json"
+  category: "Security, Network & Public Tools"
+  auth: "None"
+  https: true
+  cors: true
+  rate_limit: "Open"
+
+- name: "SSL Labs API"
+  description: "किसी भी डोमेन के SSL/TLS सर्टिफिकेट की डिटेल्ड सिक्योरिटी ग्रेडिंग।"
+  url: "https://www.ssllabs.com/projects/ssllabs-apis"
+  test_endpoint: "https://api.ssllabs.com/api/v3/info"
+  category: "Security, Network & Public Tools"
+  auth: "None"
+  https: true
+  cors: true
+  rate_limit: "Open (rate-limited, avoid heavy polling)"
+
+- name: "AbuseIPDB"
+  description: "किसी IP एड्रेस की abuse/spam रिपोर्ट्स और रिस्क स्कोर चेक करना।"
+  url: "https://www.abuseipdb.com"
+  test_endpoint: "https://api.abuseipdb.com/api/v2/check?ipAddress=8.8.8.8"
+  category: "Security, Network & Public Tools"
+  auth: "API Key (Free tier)"
+  https: true
+  cors: true
+  rate_limit: "1000 checks/day (free)"
+
+- name: "VirusTotal API"
+  description: "फाइल/URL/IP को 70+ एंटीवायरस इंजनों से स्कैन कराना।"
+  url: "https://docs.virustotal.com/reference/overview"
+  test_endpoint: "https://www.virustotal.com/api/v3/ip_addresses/8.8.8.8"
+  category: "Security, Network & Public Tools"
+  auth: "API Key (Free tier)"
+  https: true
+  cors: true
+  rate_limit: "4 req/min (free tier)"

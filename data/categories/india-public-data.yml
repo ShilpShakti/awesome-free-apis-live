@@ -1,0 +1,81 @@
+- name: "India Post Pincode API"
+  description: "भारत के किसी भी पिनकोड या डाकघर का विवरण खोजें।"
+  url: "https://api.postalpincode.in"
+  test_endpoint: "https://api.postalpincode.in/pincode/263139"
+  category: "India Public Data"
+  auth: "None"
+  https: true
+  cors: true
+  rate_limit: "Open"
+
+- name: "Indian Railway Train Route / Live Status"
+  description: "ट्रेन शेड्यूल और स्टेशन कोड की जानकारी (unofficial open mirror)।"
+  url: "https://erail.in"
+  test_endpoint: "https://erail.in"
+  category: "India Public Data"
+  auth: "None / API Key (mirror dependent)"
+  https: true
+  cors: false
+  rate_limit: "Unofficial — fair use"
+  note: "यह ऑफिशियल भारतीय रेलवे API नहीं है, ओपन मिरर है — स्थिरता की गारंटी नहीं।"
+
+- name: "data.gov.in Mandi Prices API"
+  description: "देशभर की मंडियों में फसलों का दैनिक भाव (Open Government Data)।"
+  url: "https://api.data.gov.in"
+  test_endpoint: "https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070"
+  category: "India Public Data"
+  auth: "API Key (Free Gov Sign-up)"
+  https: true
+  cors: true
+  rate_limit: "Key based"
+
+- name: "eCourts Public Case Status"
+  description: "ज़िला और उच्च न्यायालयों के केस स्टेटस व कॉज़ लिस्ट का ओपन डेटा।"
+  url: "https://ecourts.gov.in"
+  test_endpoint: "https://ecourts.gov.in"
+  category: "India Public Data"
+  auth: "None / Scraping Endpoints"
+  https: true
+  cors: false
+  rate_limit: "Unofficial — fair use"
+  note: "आधिकारिक पोर्टल है पर सीधी 'API' नहीं — ओपन मिरर/स्क्रैपिंग एंडपॉइंट पर निर्भर।"
+
+- name: "ISRO Spacecraft / Launchers API"
+  description: "इसरो के सभी सैटेलाइट और रॉकेट लॉन्च का पब्लिक डेटा।"
+  url: "https://isro.vercel.app/api/spacecrafts"
+  test_endpoint: "https://isro.vercel.app/api/spacecrafts"
+  category: "India Public Data"
+  auth: "None"
+  https: true
+  cors: true
+  rate_limit: "Open"
+
+- name: "IFSC Code Lookup (Razorpay)"
+  description: "बैंक की IFSC कोड डिटेल्स (ब्रांच, बैंक नाम, पता) निकालें।"
+  url: "https://ifsc.razorpay.com"
+  test_endpoint: "https://ifsc.razorpay.com/HDFC0000001"
+  category: "India Public Data"
+  auth: "None"
+  https: true
+  cors: true
+  rate_limit: "Open"
+
+- name: "WAQI Air Quality Index API"
+  description: "भारत के शहरों सहित दुनिया भर का लाइव एयर क्वालिटी इंडेक्स (AQI)।"
+  url: "https://aqicn.org/api"
+  test_endpoint: "https://api.waqi.info/feed/delhi/?token=demo"
+  category: "India Public Data"
+  auth: "API Key (Free, instant)"
+  https: true
+  cors: true
+  rate_limit: "1000 req/min (free token)"
+
+- name: "India States & Districts JSON"
+  description: "भारत के सभी राज्यों और ज़िलों की स्टैटिक JSON लिस्ट (community-maintained)।"
+  url: "https://github.com/sab99r/Indian-States-And-Districts"
+  test_endpoint: "https://raw.githubusercontent.com/sab99r/Indian-States-And-Districts/master/states-and-districts.json"
+  category: "India Public Data"
+  auth: "None"
+  https: true
+  cors: true
+  rate_limit: "Open (static file — GitHub raw CDN)"

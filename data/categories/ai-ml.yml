@@ -1,0 +1,81 @@
+- name: "Groq Cloud API"
+  description: "Llama3/Mistral पर सुपरफास्ट AI टेक्स्ट जेनरेशन — 100% फ्री टियर।"
+  url: "https://groq.com"
+  test_endpoint: "https://api.groq.com/openai/v1/models"
+  category: "AI / ML"
+  auth: "API Key (Free Tier)"
+  https: true
+  cors: true
+  rate_limit: "Key based (generous free tier)"
+
+- name: "Hugging Face Serverless Inference"
+  description: "हज़ारों ओपन-सोर्स मॉडल्स (टेक्स्ट, ऑडियो, इमेज) को मुफ्त में रन करें।"
+  url: "https://huggingface.co/docs/api-inference"
+  test_endpoint: "https://api-inference.huggingface.co/models/gpt2"
+  category: "AI / ML"
+  auth: "API Key (Free)"
+  https: true
+  cors: true
+  rate_limit: "Key based (free tier)"
+
+- name: "Ollama Local REST API"
+  description: "अपने कंप्यूटर/सर्वर पर बिना इंटरनेट LLM रन करने का स्टैंडर्ड फॉर्मेट।"
+  url: "http://localhost:11434/api"
+  test_endpoint: "http://localhost:11434/api"
+  category: "AI / ML"
+  auth: "None (Localhost / Self-hosted)"
+  https: false
+  cors: false
+  rate_limit: "N/A (local)"
+  skip_health_check: true
+  note: "यह लोकल/सेल्फ-होस्टेड API है — पब्लिक इंटरनेट से पिंग नहीं हो सकती, इसलिए डेली हेल्थ-चेक में शामिल नहीं है।"
+
+- name: "LibreTranslate"
+  description: "भाषाओं का मुफ्त, ओपन-सोर्स अनुवाद API।"
+  url: "https://libretranslate.com"
+  test_endpoint: "https://translate.terraprint.co/languages"
+  category: "AI / ML"
+  auth: "None / Self-hosted"
+  https: true
+  cors: true
+  rate_limit: "Fair use"
+
+- name: "OpenRouter API"
+  description: "एक ही API से 100+ LLM मॉडल्स (कई फ्री मॉडल्स सहित) तक पहुंच।"
+  url: "https://openrouter.ai"
+  test_endpoint: "https://openrouter.ai/api/v1/models"
+  category: "AI / ML"
+  auth: "None (models list) / API Key (completions के लिए)"
+  https: true
+  cors: true
+  rate_limit: "Open (list) / Key based (completions)"
+
+- name: "Cohere API"
+  description: "टेक्स्ट जेनरेशन, एम्बेडिंग्स और क्लासिफिकेशन के लिए फ्री ट्रायल टियर।"
+  url: "https://cohere.com"
+  test_endpoint: "https://api.cohere.ai/v1/models"
+  category: "AI / ML"
+  auth: "API Key (Free trial)"
+  https: true
+  cors: true
+  rate_limit: "Key based (free trial limits)"
+
+- name: "Wit.ai (Meta NLU)"
+  description: "Meta का फ्री नेचुरल लैंग्वेज अंडरस्टैंडिंग (intent/entity extraction) API।"
+  url: "https://wit.ai"
+  test_endpoint: "https://api.wit.ai/message?v=20230215&q=hello"
+  category: "AI / ML"
+  auth: "API Key (Free — Facebook account से)"
+  https: true
+  cors: true
+  rate_limit: "Key based (generous free tier)"
+
+- name: "Together AI"
+  description: "ओपन-सोर्स LLMs (Llama, Mixtral आदि) के लिए फ्री-क्रेडिट इन्फरेंस API।"
+  url: "https://www.together.ai"
+  test_endpoint: "https://api.together.xyz/v1/models"
+  category: "AI / ML"
+  auth: "API Key (Free credits on signup)"
+  https: true
+  cors: true
+  rate_limit: "Key based"

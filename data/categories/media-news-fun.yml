@@ -1,0 +1,49 @@
+- name: "NewsAPI.org"
+  description: "दुनिया भर (भारत सहित) के 80,000+ न्यूज़ सोर्सेज़ से हेडलाइन्स।"
+  url: "https://newsapi.org"
+  test_endpoint: "https://newsapi.org/v2/top-headlines?country=in"
+  category: "Media, News & Fun"
+  auth: "API Key (Free tier — dev use)"
+  https: true
+  cors: true
+  rate_limit: "100 req/day (free dev tier)"
+
+- name: "TMDB (The Movie Database)"
+  description: "फिल्मों, TV शोज़ और कलाकारों का विशाल, फ्री डेटाबेस।"
+  url: "https://www.themoviedb.org/documentation/api"
+  test_endpoint: "https://api.themoviedb.org/3/movie/550"
+  category: "Media, News & Fun"
+  auth: "API Key (Free)"
+  https: true
+  cors: true
+  rate_limit: "50 req/sec (free)"
+
+- name: "NASA APOD (Astronomy Picture of the Day)"
+  description: "नासा की रोज़ाना खगोलीय तस्वीर, विवरण के साथ।"
+  url: "https://api.nasa.gov"
+  test_endpoint: "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY"
+  category: "Media, News & Fun"
+  auth: "API Key (DEMO_KEY से बिना साइन-अप टेस्ट कर सकते हैं)"
+  https: true
+  cors: true
+  rate_limit: "DEMO_KEY: ~30 req/hour, अपनी key से ज़्यादा"
+
+- name: "Chuck Norris Jokes API"
+  description: "रैंडम Chuck Norris जोक्स — कैटेगरी फिल्टर के साथ।"
+  url: "https://api.chucknorris.io"
+  test_endpoint: "https://api.chucknorris.io/jokes/random"
+  category: "Media, News & Fun"
+  auth: "None"
+  https: true
+  cors: true
+  rate_limit: "Open"
+
+- name: "TVMaze API"
+  description: "TV शोज़, एपिसोड्स, कास्ट और शेड्यूल का ओपन डेटा।"
+  url: "https://www.tvmaze.com/api"
+  test_endpoint: "https://api.tvmaze.com/singlesearch/shows?q=friends"
+  category: "Media, News & Fun"
+  auth: "None"
+  https: true
+  cors: true
+  rate_limit: "20 req/10sec (fair use)"
