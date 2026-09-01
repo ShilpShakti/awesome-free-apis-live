@@ -11,7 +11,7 @@
 
 🔴 **लाइव, सर्च करने लायक डैशबोर्ड:** `https://OWNER.github.io/REPO/` (GitHub Pages में `docs/` फोल्डर से enable करें)
 
-> 🕒 **आखिरी अपडेट:** 2026-08-30T23:01:48.755842+00:00
+> 🕒 **आखिरी अपडेट:** 2026-09-01T00:14:55.224167+00:00
 
 ## नई API कैसे जोड़ें?
 
@@ -103,7 +103,7 @@
 | [NewsAPI.org](https://newsapi.org) | दुनिया भर (भारत सहित) के 80,000+ न्यूज़ सोर्सेज़ से हेडलाइन्स। | API Key (Free tier — dev use) | ✅ | ✅ | 🟡 100.0% Key Reqd |
 | [TMDB (The Movie Database)](https://www.themoviedb.org/documentation/api) | फिल्मों, TV शोज़ और कलाकारों का विशाल, फ्री डेटाबेस। | API Key (Free) | ✅ | ✅ | 🟡 100.0% Key Reqd |
 | [NASA APOD (Astronomy Picture of the Day)](https://api.nasa.gov) | नासा की रोज़ाना खगोलीय तस्वीर, विवरण के साथ। | API Key (DEMO_KEY से बिना साइन-अप टेस्ट कर सकते हैं) | ✅ | ✅ | 🟢 100.0% Up |
-| [Chuck Norris Jokes API](https://api.chucknorris.io) | रैंडम Chuck Norris जोक्स — कैटेगरी फिल्टर के साथ। | None | ✅ | ✅ | 🟢 80.0% Up |
+| [Chuck Norris Jokes API](https://api.chucknorris.io) | रैंडम Chuck Norris जोक्स — कैटेगरी फिल्टर के साथ। | None | ✅ | ✅ | 🟢 83.3% Up |
 | [TVMaze API](https://www.tvmaze.com/api) | TV शोज़, एपिसोड्स, कास्ट और शेड्यूल का ओपन डेटा। | None | ✅ | ✅ | 🟢 100.0% Up |
 
 ### Security, Network & Public Tools
@@ -112,7 +112,7 @@
 |---|---|---|---|---|---|
 | [Cloudflare 1.1.1.1 DNS over HTTPS](https://cloudflare-dns.com/dns-query) ⓘ | प्रोग्रामेटिक DNS रिकॉर्ड्स और डोमेन रिज़ॉल्यूशन। | None | ✅ | ✅ | 🔴 0.0% Down |
 | [Have I Been Pwned (k-Anonymity Range Check)](https://haveibeenpwned.com/API/v3) | पासवर्ड लीक हुआ है या नहीं, सुरक्षित तरीके से (k-anonymity) जांचना। | None | ✅ | ✅ | 🟢 100.0% Up |
-| [RoboHash](https://robohash.org) | किसी भी टेक्स्ट या आईडी से यूनीक रोबोट/मॉन्स्टर प्रोफाइल फोटो बनाना। | None | ✅ | ✅ | 🟢 80.0% Up |
+| [RoboHash](https://robohash.org) | किसी भी टेक्स्ट या आईडी से यूनीक रोबोट/मॉन्स्टर प्रोफाइल फोटो बनाना। | None | ✅ | ✅ | 🟢 83.3% Up |
 | [Bored API](https://bored-api.appbrewery.com) | रैंडम टास्क्स और एक्टिविटीज़ का JSON डेटा (बोरियत दूर करने के लिए)। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [Open Library Books API](https://openlibrary.org/developers/api) | दुनिया भर की किताबों का ISBN, लेखक और पब्लिशर डेटा। | None | ✅ | ✅ | 🔴 0.0% Down |
 | [SSL Labs API](https://www.ssllabs.com/projects/ssllabs-apis) | किसी भी डोमेन के SSL/TLS सर्टिफिकेट की डिटेल्ड सिक्योरिटी ग्रेडिंग। | None | ✅ | ✅ | 🟢 100.0% Up |
