@@ -11,7 +11,7 @@
 
 🔴 **लाइव, सर्च करने लायक डैशबोर्ड:** `https://OWNER.github.io/REPO/` (GitHub Pages में `docs/` फोल्डर से enable करें)
 
-> 🕒 **आखिरी अपडेट:** 2026-09-23T23:21:57.693839+00:00
+> 🕒 **आखिरी अपडेट:** 2026-09-24T23:41:40.286132+00:00
 
 ## नई API कैसे जोड़ें?
 
@@ -76,7 +76,7 @@
 |---|---|---|---|---|---|
 | [India Post Pincode API](https://api.postalpincode.in) | भारत के किसी भी पिनकोड या डाकघर का विवरण खोजें। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [Indian Railway Train Route / Live Status](https://erail.in) ⓘ | ट्रेन शेड्यूल और स्टेशन कोड की जानकारी (unofficial open mirror)। | None / API Key (mirror dependent) | ✅ | ❌ | 🟢 100.0% Up |
-| [eCourts Public Case Status](https://ecourts.gov.in) ⓘ | ज़िला और उच्च न्यायालयों के केस स्टेटस व कॉज़ लिस्ट का ओपन डेटा। | None / Scraping Endpoints | ✅ | ❌ | 🟢 100.0% Up |
+| [eCourts Public Case Status](https://ecourts.gov.in) ⓘ | ज़िला और उच्च न्यायालयों के केस स्टेटस व कॉज़ लिस्ट का ओपन डेटा। | None / Scraping Endpoints | ✅ | ❌ | 🔴 96.7% Down |
 | [ISRO Spacecraft / Launchers API](https://isro.vercel.app/api/spacecrafts) | इसरो के सभी सैटेलाइट और रॉकेट लॉन्च का पब्लिक डेटा। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [IFSC Code Lookup (Razorpay)](https://ifsc.razorpay.com) | बैंक की IFSC कोड डिटेल्स (ब्रांच, बैंक नाम, पता) निकालें। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [WAQI Air Quality Index API](https://aqicn.org/api) | भारत के शहरों सहित दुनिया भर का लाइव एयर क्वालिटी इंडेक्स (AQI)। | API Key (Free, instant) | ✅ | ✅ | 🟢 100.0% Up |
@@ -96,8 +96,8 @@
 |---|---|---|---|---|---|
 | [NewsAPI.org](https://newsapi.org) | दुनिया भर (भारत सहित) के 80,000+ न्यूज़ सोर्सेज़ से हेडलाइन्स। | API Key (Free tier — dev use) | ✅ | ✅ | 🟡 100.0% Key Reqd |
 | [TMDB (The Movie Database)](https://www.themoviedb.org/documentation/api) | फिल्मों, TV शोज़ और कलाकारों का विशाल, फ्री डेटाबेस। | API Key (Free) | ✅ | ✅ | 🟡 100.0% Key Reqd |
-| [NASA APOD (Astronomy Picture of the Day)](https://api.nasa.gov) | नासा की रोज़ाना खगोलीय तस्वीर, विवरण के साथ। | API Key (DEMO_KEY से बिना साइन-अप टेस्ट कर सकते हैं) | ✅ | ✅ | 🟢 96.6% Up |
-| [Chuck Norris Jokes API](https://api.chucknorris.io) | रैंडम Chuck Norris जोक्स — कैटेगरी फिल्टर के साथ। | None | ✅ | ✅ | 🟢 96.6% Up |
+| [NASA APOD (Astronomy Picture of the Day)](https://api.nasa.gov) | नासा की रोज़ाना खगोलीय तस्वीर, विवरण के साथ। | API Key (DEMO_KEY से बिना साइन-अप टेस्ट कर सकते हैं) | ✅ | ✅ | 🟢 96.7% Up |
+| [Chuck Norris Jokes API](https://api.chucknorris.io) | रैंडम Chuck Norris जोक्स — कैटेगरी फिल्टर के साथ। | None | ✅ | ✅ | 🟢 96.7% Up |
 | [TVMaze API](https://www.tvmaze.com/api) | TV शोज़, एपिसोड्स, कास्ट और शेड्यूल का ओपन डेटा। | None | ✅ | ✅ | 🟢 100.0% Up |
 
 ### Security, Network & Public Tools
@@ -105,7 +105,7 @@
 | API नाम | विवरण | ऑथेंटिकेशन | HTTPS | CORS | स्थिति |
 |---|---|---|---|---|---|
 | [Have I Been Pwned (k-Anonymity Range Check)](https://haveibeenpwned.com/API/v3) | पासवर्ड लीक हुआ है या नहीं, सुरक्षित तरीके से (k-anonymity) जांचना। | None | ✅ | ✅ | 🟢 100.0% Up |
-| [RoboHash](https://robohash.org) | किसी भी टेक्स्ट या आईडी से यूनीक रोबोट/मॉन्स्टर प्रोफाइल फोटो बनाना। | None | ✅ | ✅ | 🟢 96.6% Up |
+| [RoboHash](https://robohash.org) | किसी भी टेक्स्ट या आईडी से यूनीक रोबोट/मॉन्स्टर प्रोफाइल फोटो बनाना। | None | ✅ | ✅ | 🟢 96.7% Up |
 | [Bored API](https://bored-api.appbrewery.com) | रैंडम टास्क्स और एक्टिविटीज़ का JSON डेटा (बोरियत दूर करने के लिए)। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [SSL Labs API](https://www.ssllabs.com/projects/ssllabs-apis) | किसी भी डोमेन के SSL/TLS सर्टिफिकेट की डिटेल्ड सिक्योरिटी ग्रेडिंग। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [AbuseIPDB](https://www.abuseipdb.com) | किसी IP एड्रेस की abuse/spam रिपोर्ट्स और रिस्क स्कोर चेक करना। | API Key (Free tier) | ✅ | ✅ | 🟡 100.0% Key Reqd |
