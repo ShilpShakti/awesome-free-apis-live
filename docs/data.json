@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-29T00:45:34.065586+00:00",
-  "last_health_check": "2026-09-29T00:45:14.800917+00:00",
+  "generated_at": "2026-09-30T00:01:48.373436+00:00",
+  "last_health_check": "2026-09-30T00:01:11.088378+00:00",
   "total": 50,
-  "reachable": 41,
+  "reachable": 40,
   "apis": [
     {
       "name": "Groq Cloud API",
@@ -18,7 +18,7 @@
       "skip_health_check": false,
       "state": "key_required",
       "uptime_pct": 100.0,
-      "latency_ms": 244
+      "latency_ms": 131
     },
     {
       "name": "Hugging Face Serverless Inference",
@@ -34,7 +34,7 @@
       "skip_health_check": false,
       "state": "down",
       "uptime_pct": 0.0,
-      "latency_ms": 31
+      "latency_ms": 13
     },
     {
       "name": "Ollama Local REST API",
@@ -66,7 +66,7 @@
       "skip_health_check": false,
       "state": "down",
       "uptime_pct": 0.0,
-      "latency_ms": 287
+      "latency_ms": 142
     },
     {
       "name": "OpenRouter API",
@@ -82,7 +82,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 146
+      "latency_ms": 90
     },
     {
       "name": "Cohere API",
@@ -98,7 +98,7 @@
       "skip_health_check": false,
       "state": "key_required",
       "uptime_pct": 100.0,
-      "latency_ms": 243
+      "latency_ms": 242
     },
     {
       "name": "Wit.ai (Meta NLU)",
@@ -114,7 +114,7 @@
       "skip_health_check": false,
       "state": "down",
       "uptime_pct": 0.0,
-      "latency_ms": 272
+      "latency_ms": 169
     },
     {
       "name": "Together AI",
@@ -130,7 +130,7 @@
       "skip_health_check": false,
       "state": "key_required",
       "uptime_pct": 100.0,
-      "latency_ms": 202
+      "latency_ms": 210
     },
     {
       "name": "India Post Pincode API",
@@ -146,7 +146,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 96.7,
-      "latency_ms": 460
+      "latency_ms": 288
     },
     {
       "name": "Indian Railway Train Route / Live Status",
@@ -162,7 +162,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 928
+      "latency_ms": 818
     },
     {
       "name": "data.gov.in Mandi Prices API",
@@ -178,7 +178,7 @@
       "skip_health_check": false,
       "state": "down",
       "uptime_pct": 0.0,
-      "latency_ms": 2024
+      "latency_ms": 505
     },
     {
       "name": "eCourts Public Case Status",
@@ -194,7 +194,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 96.7,
-      "latency_ms": 2323
+      "latency_ms": 1920
     },
     {
       "name": "ISRO Spacecraft / Launchers API",
@@ -210,7 +210,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 484
+      "latency_ms": 192
     },
     {
       "name": "IFSC Code Lookup (Razorpay)",
@@ -226,7 +226,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 812
+      "latency_ms": 891
     },
     {
       "name": "WAQI Air Quality Index API",
@@ -242,7 +242,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 577
+      "latency_ms": 677
     },
     {
       "name": "India States & Districts JSON",
@@ -258,7 +258,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 169
+      "latency_ms": 114
     },
     {
       "name": "NewsAPI.org",
@@ -274,7 +274,7 @@
       "skip_health_check": false,
       "state": "key_required",
       "uptime_pct": 100.0,
-      "latency_ms": 195
+      "latency_ms": 265
     },
     {
       "name": "TMDB (The Movie Database)",
@@ -290,7 +290,7 @@
       "skip_health_check": false,
       "state": "key_required",
       "uptime_pct": 100.0,
-      "latency_ms": 186
+      "latency_ms": 223
     },
     {
       "name": "NASA APOD (Astronomy Picture of the Day)",
@@ -304,9 +304,9 @@
       "rate_limit": "DEMO_KEY: ~30 req/hour, अपनी key से ज़्यादा",
       "note": null,
       "skip_health_check": false,
-      "state": "active",
-      "uptime_pct": 96.7,
-      "latency_ms": 468
+      "state": "down",
+      "uptime_pct": 93.3,
+      "latency_ms": 10313
     },
     {
       "name": "Chuck Norris Jokes API",
@@ -322,7 +322,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 300
+      "latency_ms": 648
     },
     {
       "name": "TVMaze API",
@@ -338,7 +338,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 501
+      "latency_ms": 451
     },
     {
       "name": "Cloudflare 1.1.1.1 DNS over HTTPS",
@@ -354,7 +354,7 @@
       "skip_health_check": false,
       "state": "down",
       "uptime_pct": 0.0,
-      "latency_ms": 105
+      "latency_ms": 41
     },
     {
       "name": "Have I Been Pwned (k-Anonymity Range Check)",
@@ -370,7 +370,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 129
+      "latency_ms": 72
     },
     {
       "name": "RoboHash",
@@ -386,7 +386,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 276
+      "latency_ms": 286
     },
     {
       "name": "Bored API",
@@ -402,7 +402,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 244
+      "latency_ms": 233
     },
     {
       "name": "Open Library Books API",
@@ -418,7 +418,7 @@
       "skip_health_check": false,
       "state": "down",
       "uptime_pct": 0.0,
-      "latency_ms": 305
+      "latency_ms": 12013
     },
     {
       "name": "SSL Labs API",
@@ -434,7 +434,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 188
+      "latency_ms": 261
     },
     {
       "name": "AbuseIPDB",
@@ -450,7 +450,7 @@
       "skip_health_check": false,
       "state": "key_required",
       "uptime_pct": 100.0,
-      "latency_ms": 172
+      "latency_ms": 138
     },
     {
       "name": "VirusTotal API",
@@ -466,7 +466,7 @@
       "skip_health_check": false,
       "state": "key_required",
       "uptime_pct": 100.0,
-      "latency_ms": 209
+      "latency_ms": 249
     },
     {
       "name": "JSONPlaceholder",
@@ -482,7 +482,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 166
+      "latency_ms": 92
     },
     {
       "name": "DummyJSON",
@@ -498,7 +498,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 144
+      "latency_ms": 123
     },
     {
       "name": "IPify",
@@ -514,7 +514,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 124
+      "latency_ms": 71
     },
     {
       "name": "Open-Meteo Weather API",
@@ -530,7 +530,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 569
+      "latency_ms": 596
     },
     {
       "name": "Shields.io Badges",
@@ -546,7 +546,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 189
+      "latency_ms": 113
     },
     {
       "name": "REST Countries",
@@ -562,7 +562,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 320
+      "latency_ms": 333
     },
     {
       "name": "CoinGecko Simple Price API",
@@ -576,9 +576,9 @@
       "rate_limit": "10-30 req/min (free)",
       "note": null,
       "skip_health_check": false,
-      "state": "active",
+      "state": "key_required",
       "uptime_pct": 100.0,
-      "latency_ms": 184
+      "latency_ms": 110
     },
     {
       "name": "ExchangeRate-API",
@@ -594,7 +594,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 127
+      "latency_ms": 88
     },
     {
       "name": "QR Code Generator (goqr.me)",
@@ -610,7 +610,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 788
+      "latency_ms": 750
     },
     {
       "name": "Agify.io",
@@ -626,7 +626,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 476
+      "latency_ms": 382
     },
     {
       "name": "Universities List API",
@@ -642,7 +642,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 350
+      "latency_ms": 146
     },
     {
       "name": "Numbers API",
@@ -658,7 +658,7 @@
       "skip_health_check": false,
       "state": "down",
       "uptime_pct": 0.0,
-      "latency_ms": 155
+      "latency_ms": 166
     },
     {
       "name": "Cat Facts API",
@@ -674,7 +674,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 400
+      "latency_ms": 389
     },
     {
       "name": "Dog CEO API",
@@ -690,7 +690,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 510
+      "latency_ms": 463
     },
     {
       "name": "Advice Slip API",
@@ -706,7 +706,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 464
+      "latency_ms": 433
     },
     {
       "name": "JokeAPI",
@@ -722,7 +722,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 563
+      "latency_ms": 230
     },
     {
       "name": "Open Trivia Database",
@@ -738,7 +738,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 279
+      "latency_ms": 243
     },
     {
       "name": "Public Holiday API (Nager.Date)",
@@ -754,7 +754,7 @@
       "skip_health_check": false,
       "state": "down",
       "uptime_pct": 0.0,
-      "latency_ms": 253
+      "latency_ms": 211
     },
     {
       "name": "IPAPI - IP Geolocation",
@@ -770,7 +770,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 197
+      "latency_ms": 113
     },
     {
       "name": "Random User Generator",
@@ -786,7 +786,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 165
+      "latency_ms": 311
     },
     {
       "name": "PokeAPI",
@@ -802,7 +802,7 @@
       "skip_health_check": false,
       "state": "active",
       "uptime_pct": 100.0,
-      "latency_ms": 139
+      "latency_ms": 108
     }
   ]
 }

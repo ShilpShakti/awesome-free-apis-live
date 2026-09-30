@@ -11,7 +11,7 @@
 
 🔴 **लाइव, सर्च करने लायक डैशबोर्ड:** `https://OWNER.github.io/REPO/` (GitHub Pages में `docs/` फोल्डर से enable करें)
 
-> 🕒 **आखिरी अपडेट:** 2026-09-29T00:45:14.800917+00:00
+> 🕒 **आखिरी अपडेट:** 2026-09-30T00:01:11.088378+00:00
 
 ## नई API कैसे जोड़ें?
 
@@ -56,7 +56,7 @@
 | [Open-Meteo Weather API](https://open-meteo.com) | बिना किसी API Key के सटीक मौसम और तापमान डेटा। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [Shields.io Badges](https://shields.io) | डायनामिक बैज और स्टेटस इमेज जनरेट करना (README badges आदि के लिए)। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [REST Countries](https://restcountries.com) | दुनिया के देशों की मुद्रा, राजधानी, झंडा और जनसंख्या डेटा। | None | ✅ | ✅ | 🟢 100.0% Up |
-| [CoinGecko Simple Price API](https://www.coingecko.com/api) | लाइव क्रिप्टोकरेंसी और फॉरेक्स रेट्स (INR सहित)। | None (Free Demo Tier) | ✅ | ✅ | 🟢 100.0% Up |
+| [CoinGecko Simple Price API](https://www.coingecko.com/api) | लाइव क्रिप्टोकरेंसी और फॉरेक्स रेट्स (INR सहित)। | None (Free Demo Tier) | ✅ | ✅ | 🟡 100.0% Key Reqd |
 | [ExchangeRate-API](https://open.er-api.com/v6/latest/USD) | अंतरराष्ट्रीय मुद्राओं की लाइव एक्सचेंज दरें। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [QR Code Generator (goqr.me)](https://api.qrserver.com) | किसी भी टेक्स्ट/लिंक से तुरंत QR कोड इमेज बनाना। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [Agify.io](https://agify.io) | नाम के आधार पर उम्र का अनुमान लगाने वाला डेटा। | None | ✅ | ✅ | 🟢 100.0% Up |
@@ -96,7 +96,7 @@
 |---|---|---|---|---|---|
 | [NewsAPI.org](https://newsapi.org) | दुनिया भर (भारत सहित) के 80,000+ न्यूज़ सोर्सेज़ से हेडलाइन्स। | API Key (Free tier — dev use) | ✅ | ✅ | 🟡 100.0% Key Reqd |
 | [TMDB (The Movie Database)](https://www.themoviedb.org/documentation/api) | फिल्मों, TV शोज़ और कलाकारों का विशाल, फ्री डेटाबेस। | API Key (Free) | ✅ | ✅ | 🟡 100.0% Key Reqd |
-| [NASA APOD (Astronomy Picture of the Day)](https://api.nasa.gov) | नासा की रोज़ाना खगोलीय तस्वीर, विवरण के साथ। | API Key (DEMO_KEY से बिना साइन-अप टेस्ट कर सकते हैं) | ✅ | ✅ | 🟢 96.7% Up |
+| [NASA APOD (Astronomy Picture of the Day)](https://api.nasa.gov) | नासा की रोज़ाना खगोलीय तस्वीर, विवरण के साथ। | API Key (DEMO_KEY से बिना साइन-अप टेस्ट कर सकते हैं) | ✅ | ✅ | 🔴 93.3% Down |
 | [Chuck Norris Jokes API](https://api.chucknorris.io) | रैंडम Chuck Norris जोक्स — कैटेगरी फिल्टर के साथ। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [TVMaze API](https://www.tvmaze.com/api) | TV शोज़, एपिसोड्स, कास्ट और शेड्यूल का ओपन डेटा। | None | ✅ | ✅ | 🟢 100.0% Up |
 
