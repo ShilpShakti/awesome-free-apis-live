@@ -11,7 +11,7 @@
 
 🔴 **लाइव, सर्च करने लायक डैशबोर्ड:** `https://OWNER.github.io/REPO/` (GitHub Pages में `docs/` फोल्डर से enable करें)
 
-> 🕒 **आखिरी अपडेट:** 2026-10-20T23:32:42.675954+00:00
+> 🕒 **आखिरी अपडेट:** 2026-10-21T23:49:44.903653+00:00
 
 ## नई API कैसे जोड़ें?
 
@@ -65,7 +65,7 @@
 | [Dog CEO API](https://dog.ceo/dog-api) | नस्ल के हिसाब से कुत्तों की रैंडम तस्वीरें (image URLs)। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [Advice Slip API](https://api.adviceslip.com) | रैंडम एक-लाइन सलाह/सुझाव जनरेट करना। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [JokeAPI](https://v2.jokeapi.dev) | प्रोग्रामिंग, डार्क और मिस्क जोक्स — कैटेगरी व फिल्टर के साथ। | None | ✅ | ✅ | 🟢 100.0% Up |
-| [Open Trivia Database](https://opentdb.com) | क्विज़ ऐप्स के लिए हज़ारों वेरिफाइड ट्रिविया सवाल। | None | ✅ | ✅ | 🔴 96.7% Down |
+| [Open Trivia Database](https://opentdb.com) | क्विज़ ऐप्स के लिए हज़ारों वेरिफाइड ट्रिविया सवाल। | None | ✅ | ✅ | 🟢 96.7% Up |
 | [IPAPI - IP Geolocation](https://ipapi.co) | IP एड्रेस से जिओ-लोकेशन (शहर, देश, टाइमज़ोन) जानकारी निकालें। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [Random User Generator](https://randomuser.me) | टेस्टिंग के लिए फेक यूज़र प्रोफाइल्स (नाम, फोटो, पता) जनरेट करना। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [PokeAPI](https://pokeapi.co) | पोकेमॉन डेटा (स्टैट्स, मूव्स, टाइप्स) — API टेस्टिंग के लिए लोकप्रिय। | None | ✅ | ✅ | 🟢 100.0% Up |
@@ -76,7 +76,7 @@
 |---|---|---|---|---|---|
 | [India Post Pincode API](https://api.postalpincode.in) | भारत के किसी भी पिनकोड या डाकघर का विवरण खोजें। | None | ✅ | ✅ | 🟢 96.7% Up |
 | [Indian Railway Train Route / Live Status](https://erail.in) ⓘ | ट्रेन शेड्यूल और स्टेशन कोड की जानकारी (unofficial open mirror)। | None / API Key (mirror dependent) | ✅ | ❌ | 🟢 100.0% Up |
-| [eCourts Public Case Status](https://ecourts.gov.in) ⓘ | ज़िला और उच्च न्यायालयों के केस स्टेटस व कॉज़ लिस्ट का ओपन डेटा। | None / Scraping Endpoints | ✅ | ❌ | 🟢 96.7% Up |
+| [eCourts Public Case Status](https://ecourts.gov.in) ⓘ | ज़िला और उच्च न्यायालयों के केस स्टेटस व कॉज़ लिस्ट का ओपन डेटा। | None / Scraping Endpoints | ✅ | ❌ | 🔴 93.3% Down |
 | [ISRO Spacecraft / Launchers API](https://isro.vercel.app/api/spacecrafts) | इसरो के सभी सैटेलाइट और रॉकेट लॉन्च का पब्लिक डेटा। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [IFSC Code Lookup (Razorpay)](https://ifsc.razorpay.com) | बैंक की IFSC कोड डिटेल्स (ब्रांच, बैंक नाम, पता) निकालें। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [WAQI Air Quality Index API](https://aqicn.org/api) | भारत के शहरों सहित दुनिया भर का लाइव एयर क्वालिटी इंडेक्स (AQI)। | API Key (Free, instant) | ✅ | ✅ | 🟢 100.0% Up |
@@ -96,7 +96,7 @@
 |---|---|---|---|---|---|
 | [NewsAPI.org](https://newsapi.org) | दुनिया भर (भारत सहित) के 80,000+ न्यूज़ सोर्सेज़ से हेडलाइन्स। | API Key (Free tier — dev use) | ✅ | ✅ | 🟡 100.0% Key Reqd |
 | [TMDB (The Movie Database)](https://www.themoviedb.org/documentation/api) | फिल्मों, TV शोज़ और कलाकारों का विशाल, फ्री डेटाबेस। | API Key (Free) | ✅ | ✅ | 🟡 100.0% Key Reqd |
-| [NASA APOD (Astronomy Picture of the Day)](https://api.nasa.gov) | नासा की रोज़ाना खगोलीय तस्वीर, विवरण के साथ। | API Key (DEMO_KEY से बिना साइन-अप टेस्ट कर सकते हैं) | ✅ | ✅ | 🔴 46.7% Down |
+| [NASA APOD (Astronomy Picture of the Day)](https://api.nasa.gov) | नासा की रोज़ाना खगोलीय तस्वीर, विवरण के साथ। | API Key (DEMO_KEY से बिना साइन-अप टेस्ट कर सकते हैं) | ✅ | ✅ | 🟢 46.7% Up |
 | [Chuck Norris Jokes API](https://api.chucknorris.io) | रैंडम Chuck Norris जोक्स — कैटेगरी फिल्टर के साथ। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [TVMaze API](https://www.tvmaze.com/api) | TV शोज़, एपिसोड्स, कास्ट और शेड्यूल का ओपन डेटा। | None | ✅ | ✅ | 🟢 100.0% Up |
 
