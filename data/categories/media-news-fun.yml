@@ -47,3 +47,14 @@
   https: true
   cors: true
   rate_limit: "20 req/10sec (fair use)"
+
+- name: "Bucketlist.nl Dream of the Day"
+  description: "One daily travel or life-experience idea with an image and source URL; Dutch by default."
+  url: "https://bucketlist.nl/brand/droom-van-de-dag.openapi.json"
+  test_endpoint: "https://bucketlist.nl/api/droom-van-de-dag?lang=nl"
+  category: "Media, News & Fun"
+  auth: "None"
+  https: true
+  cors: true
+  rate_limit: "Not published (no API key required)"
+  note: "Dutch by default; linked experience pages may contain labelled affiliate links. No SLA or open licence for API data, images or code is claimed."
