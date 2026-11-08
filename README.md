@@ -11,7 +11,7 @@
 
 🔴 **लाइव, सर्च करने लायक डैशबोर्ड:** `https://OWNER.github.io/REPO/` (GitHub Pages में `docs/` फोल्डर से enable करें)
 
-> 🕒 **आखिरी अपडेट:** 2026-11-07T00:31:35.632847+00:00
+> 🕒 **आखिरी अपडेट:** 2026-11-08T00:05:43.694216+00:00
 
 ## नई API कैसे जोड़ें?
 
@@ -65,7 +65,7 @@
 | [Dog CEO API](https://dog.ceo/dog-api) | नस्ल के हिसाब से कुत्तों की रैंडम तस्वीरें (image URLs)। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [Advice Slip API](https://api.adviceslip.com) | रैंडम एक-लाइन सलाह/सुझाव जनरेट करना। | None | ✅ | ✅ | 🟢 96.7% Up |
 | [JokeAPI](https://v2.jokeapi.dev) | प्रोग्रामिंग, डार्क और मिस्क जोक्स — कैटेगरी व फिल्टर के साथ। | None | ✅ | ✅ | 🟢 100.0% Up |
-| [Open Trivia Database](https://opentdb.com) | क्विज़ ऐप्स के लिए हज़ारों वेरिफाइड ट्रिविया सवाल। | None | ✅ | ✅ | 🟢 93.3% Up |
+| [Open Trivia Database](https://opentdb.com) | क्विज़ ऐप्स के लिए हज़ारों वेरिफाइड ट्रिविया सवाल। | None | ✅ | ✅ | 🔴 90.0% Down |
 | [IPAPI - IP Geolocation](https://ipapi.co) | IP एड्रेस से जिओ-लोकेशन (शहर, देश, टाइमज़ोन) जानकारी निकालें। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [Random User Generator](https://randomuser.me) | टेस्टिंग के लिए फेक यूज़र प्रोफाइल्स (नाम, फोटो, पता) जनरेट करना। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [PokeAPI](https://pokeapi.co) | पोकेमॉन डेटा (स्टैट्स, मूव्स, टाइप्स) — API टेस्टिंग के लिए लोकप्रिय। | None | ✅ | ✅ | 🟢 100.0% Up |
