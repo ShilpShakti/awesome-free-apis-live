@@ -11,7 +11,7 @@
 
 🔴 **लाइव, सर्च करने लायक डैशबोर्ड:** `https://OWNER.github.io/REPO/` (GitHub Pages में `docs/` फोल्डर से enable करें)
 
-> 🕒 **आखिरी अपडेट:** 2026-11-15T00:33:49.424688+00:00
+> 🕒 **आखिरी अपडेट:** 2026-11-16T00:33:30.352380+00:00
 
 ## नई API कैसे जोड़ें?
 
@@ -53,7 +53,7 @@
 | [JSONPlaceholder](https://jsonplaceholder.typicode.com) | टेस्टिंग और UI बनाने के लिए डमी पोस्ट, यूज़र्स और कमेंट्स। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [DummyJSON](https://dummyjson.com) | ई-कॉमर्स प्रोडक्ट्स, कार्ट और यूज़र डेटा का डमी मॉक। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [IPify](https://www.ipify.org) | यूज़र का पब्लिक IP एड्रेस पता करना। | None | ✅ | ✅ | 🟢 100.0% Up |
-| [Open-Meteo Weather API](https://open-meteo.com) | बिना किसी API Key के सटीक मौसम और तापमान डेटा। | None | ✅ | ✅ | 🟢 100.0% Up |
+| [Open-Meteo Weather API](https://open-meteo.com) | बिना किसी API Key के सटीक मौसम और तापमान डेटा। | None | ✅ | ✅ | 🔴 96.7% Down |
 | [Shields.io Badges](https://shields.io) | डायनामिक बैज और स्टेटस इमेज जनरेट करना (README badges आदि के लिए)। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [REST Countries](https://restcountries.com) | दुनिया के देशों की मुद्रा, राजधानी, झंडा और जनसंख्या डेटा। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [CoinGecko Simple Price API](https://www.coingecko.com/api) | लाइव क्रिप्टोकरेंसी और फॉरेक्स रेट्स (INR सहित)। | None (Free Demo Tier) | ✅ | ✅ | 🟢 100.0% Up |
