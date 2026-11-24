@@ -11,7 +11,7 @@
 
 🔴 **लाइव, सर्च करने लायक डैशबोर्ड:** `https://OWNER.github.io/REPO/` (GitHub Pages में `docs/` फोल्डर से enable करें)
 
-> 🕒 **आखिरी अपडेट:** 2026-11-23T01:15:51.661199+00:00
+> 🕒 **आखिरी अपडेट:** 2026-11-24T05:04:34.875632+00:00
 
 ## नई API कैसे जोड़ें?
 
@@ -65,7 +65,7 @@
 | [Dog CEO API](https://dog.ceo/dog-api) | नस्ल के हिसाब से कुत्तों की रैंडम तस्वीरें (image URLs)। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [Advice Slip API](https://api.adviceslip.com) | रैंडम एक-लाइन सलाह/सुझाव जनरेट करना। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [JokeAPI](https://v2.jokeapi.dev) | प्रोग्रामिंग, डार्क और मिस्क जोक्स — कैटेगरी व फिल्टर के साथ। | None | ✅ | ✅ | 🟢 100.0% Up |
-| [Open Trivia Database](https://opentdb.com) | क्विज़ ऐप्स के लिए हज़ारों वेरिफाइड ट्रिविया सवाल। | None | ✅ | ✅ | 🔴 86.7% Down |
+| [Open Trivia Database](https://opentdb.com) | क्विज़ ऐप्स के लिए हज़ारों वेरिफाइड ट्रिविया सवाल। | None | ✅ | ✅ | 🟢 90.0% Up |
 | [IPAPI - IP Geolocation](https://ipapi.co) | IP एड्रेस से जिओ-लोकेशन (शहर, देश, टाइमज़ोन) जानकारी निकालें। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [Random User Generator](https://randomuser.me) | टेस्टिंग के लिए फेक यूज़र प्रोफाइल्स (नाम, फोटो, पता) जनरेट करना। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [PokeAPI](https://pokeapi.co) | पोकेमॉन डेटा (स्टैट्स, मूव्स, टाइप्स) — API टेस्टिंग के लिए लोकप्रिय। | None | ✅ | ✅ | 🟢 100.0% Up |
@@ -76,7 +76,7 @@
 |---|---|---|---|---|---|
 | [India Post Pincode API](https://api.postalpincode.in) | भारत के किसी भी पिनकोड या डाकघर का विवरण खोजें। | None | ✅ | ✅ | 🟢 96.7% Up |
 | [Indian Railway Train Route / Live Status](https://erail.in) ⓘ | ट्रेन शेड्यूल और स्टेशन कोड की जानकारी (unofficial open mirror)। | None / API Key (mirror dependent) | ✅ | ❌ | 🟢 100.0% Up |
-| [eCourts Public Case Status](https://ecourts.gov.in) ⓘ | ज़िला और उच्च न्यायालयों के केस स्टेटस व कॉज़ लिस्ट का ओपन डेटा। | None / Scraping Endpoints | ✅ | ❌ | 🟢 70.0% Up |
+| [eCourts Public Case Status](https://ecourts.gov.in) ⓘ | ज़िला और उच्च न्यायालयों के केस स्टेटस व कॉज़ लिस्ट का ओपन डेटा। | None / Scraping Endpoints | ✅ | ❌ | 🟢 73.3% Up |
 | [ISRO Spacecraft / Launchers API](https://isro.vercel.app/api/spacecrafts) | इसरो के सभी सैटेलाइट और रॉकेट लॉन्च का पब्लिक डेटा। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [IFSC Code Lookup (Razorpay)](https://ifsc.razorpay.com) | बैंक की IFSC कोड डिटेल्स (ब्रांच, बैंक नाम, पता) निकालें। | None | ✅ | ✅ | 🟢 100.0% Up |
 | [WAQI Air Quality Index API](https://aqicn.org/api) | भारत के शहरों सहित दुनिया भर का लाइव एयर क्वालिटी इंडेक्स (AQI)। | API Key (Free, instant) | ✅ | ✅ | 🟢 100.0% Up |
